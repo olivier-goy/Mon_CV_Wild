@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(104, 187, 285);
+}
+
+#header {
+    border: 1px black ridge;
+}
+
+#container {
+    display: flex;
+    border: 1px black ridge;
+    height: 1000px;
+}
+
+#left-box {
+    border: 1px black ridge;
+    color: white;
+    background-color: rgb(9, 30, 45);
+    float: left;
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#right-box {
+    border: 1px black ridge;
+    float: right;
+    flex: 2;
+}
+
+#experiences-box {
+    border: 1px black ridge;
+    height: auto;
+    background-color: white;
+}
+
+#studies-box {
+    border: 1px black ridge;
+    height: auto;
+    background-color: white;
+}
+
+#footer {
+    border: 1px black ridge;
+    height: auto;
+}
